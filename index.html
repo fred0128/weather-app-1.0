@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div id="weatherInfo">
+            <h2 id="location"></h2>
+            <div id="currentWeather"></div>
+            <div id="forecastWeather"></div>
+            <div id="additionalInfo"></div>
+        </div>
+        <button id="getLocationBtn" onclick="requestLocation()" style="display: none;">Konumumu Kullan</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
